@@ -33,7 +33,7 @@ def send():
 def send_message(message, pollution, updated):
 
     # URL of Google Space
-    url = "https://chat.googleapis.com/v1/spaces/AAAAhYDOgMA/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=5EzFKnnkYjv8cR5EfSpkL99v-PvBkOMlQGX9kAf7UsA"
+    url = "https://chat.googleapis.com/v1/spaces/XXXX/messages?key=XXXX&token=XXXX"
 
     # Message to be sent
     app_message = {"text": (message) +
@@ -51,7 +51,7 @@ def send_message(message, pollution, updated):
 
 
 def get_pollution():
-    api_key = '643c4650-c5ca-4703-b82b-76cd09ef5b11'
+    api_key = 'XXXX'
     endpoint_url = 'https://device.iqair.com/v3/5f4c6806972145c5b069d362'
 
     headers = {'Authorization': f'Bearer {api_key}'}  # Include the API key in the headers
